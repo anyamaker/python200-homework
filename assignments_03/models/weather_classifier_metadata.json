@@ -1,0 +1,15 @@
+{
+  "python_version": "3.12.13",
+  "sklearn_version": "1.9.1",
+  "features": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "precipitation_sum",
+    "wind_speed_10m_max"
+  ],
+  "label_rule": "good if 7 <= temp_max <= 26, temp_min >= 0, precip < 3 mm, wind < 30 km/h",
+  "city": "Las Vegas, NV",
+  "test_accuracy": 0.9452054794520548,
+  "test_f1": 0.9310344827586207,
+  "model_type": "KNN (k=1) + StandardScaler"
+}
