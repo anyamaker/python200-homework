@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 warmup_meta.json
 .env
+assignments_06/resources/
